@@ -56,7 +56,7 @@ export default function Hero({ data, brand }) {
         className="h-[370px] w-[216px] overflow-hidden rounded-[16px]"
       >
         <video
-          src="/mel-intro.mov"
+          src="/mel-intro.mp4"
           controls
           playsInline
           className="h-full w-full object-cover"
