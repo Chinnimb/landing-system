@@ -57,6 +57,7 @@ export default function Hero({ data, brand }) {
       >
         <video
           src="/mel-intro.mp4"
+          poster="/mel-intro-poster.jpg"
           controls
           playsInline
           className="h-full w-full object-cover"
