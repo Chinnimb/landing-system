@@ -50,7 +50,7 @@ export default function FaqSection({ data, brand }) {
         );
       })}
 
-      <CtaButton {...data.cta} brand={brand} />
+      <CtaButton {...data.cta} gradient brand={brand} />
     </FadeInSection>
   );
 }

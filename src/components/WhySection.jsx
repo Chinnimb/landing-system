@@ -41,7 +41,7 @@ export default function WhySection({ data, brand }) {
         ))}
       </ul>
 
-      <CtaButton {...data.cta} brand={brand} />
+      <CtaButton {...data.cta} gradient brand={brand} />
     </FadeInSection>
   );
 }

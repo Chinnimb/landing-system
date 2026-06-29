@@ -49,14 +49,19 @@ export default function Hero({ data, brand }) {
         ))}
       </motion.ul>
 
-      <motion.img
-        src={data.image}
-        alt="Hero"
+      <motion.div
         initial={{ opacity: 0, scale: 0.94 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6, delay: 0.3 }}
-        className="h-[370px] w-[216px] rounded-[16px] object-cover"
-      />
+        className="h-[370px] w-[216px] overflow-hidden rounded-[16px]"
+      >
+        <video
+          src="/mel-intro.mov"
+          controls
+          playsInline
+          className="h-full w-full object-cover"
+        />
+      </motion.div>
 
       <CtaButton {...data.cta} gradient brand={brand} />
     </div>
