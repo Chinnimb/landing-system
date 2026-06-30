@@ -42,7 +42,19 @@ export default function FaqSection({ data, brand }) {
                   transition={{ duration: 0.25, ease: "easeInOut" }}
                   className="overflow-hidden"
                 >
-                  <p className="text-[13px] leading-[15px] text-[#636369]">{item.a}</p>
+                  {item.bullets ? (
+                    <ul className="flex flex-col gap-[10px]">
+                      {item.bullets.map((b, j) => (
+                        <li key={j} className="text-[13px] leading-[18px] text-[#636369]">
+                          <span className="font-bold text-[#121213]">{b.title}</span>
+                          {" — "}
+                          {b.desc}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="text-[13px] leading-[15px] text-[#636369]">{item.a}</p>
+                  )}
                 </motion.div>
               )}
             </AnimatePresence>

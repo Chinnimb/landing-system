@@ -78,6 +78,19 @@ const influencerConfig = {
     title: ["Let Me", "Answer All Your Questions!"],
     subtitle: "Quick answers before you book.",
     items: [
+      {
+        q: "Why are labs important? What will I learn?",
+        bullets: [
+          { title: "Identifies deficiencies and excesses", desc: "Low in iron, vitamin D, B12, magnesium, or other nutrients, so the plan can target real gaps rather than assumptions." },
+          { title: "Personalizes macronutrient targets", desc: "Fasting glucose, insulin, and HbA1c show how your body handles carbohydrates, helping determine the right carb intake for your metabolism." },
+          { title: "Guides fat and cholesterol recommendations", desc: "A lipid panel (LDL, HDL, triglycerides) shapes guidance around dietary fats — whether to emphasize omega-3s, reduce saturated fat, etc." },
+          { title: "Flags underlying conditions", desc: "Thyroid panels (TSH, T3, T4) can reveal hypothyroidism or hyperthyroidism, which directly affect metabolism and caloric needs." },
+          { title: "Assesses organ health", desc: "Kidney and liver function tests matter because high-protein diets, for example, may need to be modified if kidney function is compromised." },
+          { title: "Tracks hormonal factors", desc: "Hormones like cortisol, estrogen, and testosterone influence fat storage, muscle building, and appetite — all relevant to building an effective plan." },
+          { title: "Measures inflammation", desc: "Markers like CRP (C-reactive protein) can point toward anti-inflammatory dietary strategies." },
+          { title: "Creates a measurable baseline", desc: "Labs give you a starting point so you can retest later and objectively see whether the nutrition plan is working." },
+        ],
+      },
       { q: "Who is this for?", a: "Women over 30 who feel changes in energy, recovery, metabolism, sleep, focus, hormones, or performance." },
       { q: "Why review labs with trained medical staff?", a: "Trained staff break down your labs into a personalized, actionable plan — not generic advice from trends." },
       { q: "Who is Protocol Health Club?", a: "Our team of trained medical staff reviewing labs and providing peptide and hormone optimization treatments." },
