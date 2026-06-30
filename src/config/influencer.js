@@ -79,7 +79,7 @@ const influencerConfig = {
     subtitle: "Quick answers before you book.",
     items: [
       {
-        q: "Why are labs important? What will I learn?",
+        q: "What insights do the labs provide?",
         bullets: [
           { title: "Identifies deficiencies and excesses", desc: "Low in iron, vitamin D, B12, magnesium, or other nutrients, so the plan can target real gaps rather than assumptions." },
           { title: "Personalizes macronutrient targets", desc: "Fasting glucose, insulin, and HbA1c show how your body handles carbohydrates, helping determine the right carb intake for your metabolism." },
