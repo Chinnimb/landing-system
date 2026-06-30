@@ -17,9 +17,9 @@ const influencerConfig = {
 
   hero: {
     eyebrow: "Telehealth · Blood panel + Medical consultation",
-    headline: ["Let's Fix Your Metabolism", "& Optimize Your Hormones! 🧬"],
+    headline: ["Let's Fix Your Metabolism", "& Optimize Your Hormones!"],
     subheadline:
-      "If your body feels different lately, let's stop guessing and look at what your labs are actually saying. 🔬",
+      "If your body feels different lately, let's stop guessing and look at what your labs are actually saying.",
     problems: [
       "Fat loss feels impossible",
       "Putting on muscle is harder",
@@ -29,7 +29,7 @@ const influencerConfig = {
       "Deep food cravings",
     ],
     image: "https://www.figma.com/api/mcp/asset/c0f7d708-a49f-477d-9cb7-ba9ef02e8778",
-    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Labs + Medical Consult", icon: "🧬" },
+    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Labs + Medical Consult" },
   },
 
   why: {
@@ -55,11 +55,11 @@ const influencerConfig = {
     image: "https://www.figma.com/api/mcp/asset/82ac316a-18ec-4274-84fc-db810c50850b",
     eyebrow2: "LEARN WHAT YOUR BODY NEEDS AS WELL",
     cases: [
-      { tag: "Case 01", quote: "\u201cI don't know why I waited so long to get labs. Everything finally made sense.\u201d ❤️" },
+      { tag: "Case 01", quote: "\u201cI don't know why I waited so long to get labs. Everything finally made sense.\u201d" },
       { tag: "Case 02", quote: "\u201cThe review helped me understand what was actually impacting my energy and recovery.\u201d" },
       { tag: "Case 03", quote: "\u201cI stopped guessing and had clear next steps for my metabolism and hormones.\u201d" },
     ],
-    cta: { label: "🧬 Start Your Glow Up Now!", sublabel: "25% off Labs + Medical Consult" },
+    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Labs + Medical Consult" },
   },
 
   steps: {
@@ -71,7 +71,7 @@ const influencerConfig = {
       { title: "Book your 60-min consultation", body: "Once your bloodwork is complete, schedule your review with my medical staff." },
       { title: "Walk away with a plan", body: "Review your health, metabolism, hormones, recovery, and next steps." },
     ],
-    cta: { label: "🧬 Start Your Glow Up Now!", sublabel: "Labs + Medical Consult" },
+    cta: { label: "Start Your Glow Up Now!", sublabel: "Labs + Medical Consult" },
   },
 
   faq: {
