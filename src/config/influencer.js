@@ -55,9 +55,9 @@ const influencerConfig = {
     image: "https://www.figma.com/api/mcp/asset/82ac316a-18ec-4274-84fc-db810c50850b",
     eyebrow2: "LEARN WHAT YOUR BODY NEEDS AS WELL",
     cases: [
-      { tag: "Case 01", quote: "\u201cI don't know why I waited so long to get labs. Everything finally made sense.\u201d" },
-      { tag: "Case 02", quote: "\u201cThe review helped me understand what was actually impacting my energy and recovery.\u201d" },
-      { tag: "Case 03", quote: "\u201cI stopped guessing and had clear next steps for my metabolism and hormones.\u201d" },
+      { tag: "Case 01 \u00b7 Casey", quote: "\u201cTrying to get in shape has been a constant struggle. I was doing a lot wrong with my health, and needed this feedback to finally course correct.\u201d" },
+      { tag: "Case 02 \u00b7 Kim", quote: "\u201cHaving a baseline for my health has been a game changer. I know exactly what I needed to fix, and look forward to my next appointment to see how much progress I made.\u201d" },
+      { tag: "Case 03 \u00b7 Hannah", quote: "\u201cWoah! I did not realize how much was happening inside my body. Having this level of clarity takes all the guessing out of losing weight.\u201d" },
     ],
     cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Labs + Medical Consult" },
   },
