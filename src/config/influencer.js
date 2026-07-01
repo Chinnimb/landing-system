@@ -19,7 +19,7 @@ const influencerConfig = {
     eyebrow: "Telehealth · Blood panel + Medical consultation",
     headline: ["Let's Fix Your Metabolism", "& Optimize Your Hormones!"],
     subheadline:
-      "If your body feels different lately, let's stop guessing and look at what your labs are actually saying.",
+      "If your body feels different lately, let's stop guessing and look at what your bloodwork is actually saying.",
     problems: [
       "Fat loss feels impossible",
       "Putting on muscle is harder",
@@ -29,15 +29,15 @@ const influencerConfig = {
       "Deep food cravings",
     ],
     image: "https://www.figma.com/api/mcp/asset/c0f7d708-a49f-477d-9cb7-ba9ef02e8778",
-    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Labs + Medical Consult" },
+    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Bloodwork + Medical Consult" },
   },
 
   why: {
-    eyebrow: "Your Labs Show You What Workout & Nutrition Programs Can't!",
+    eyebrow: "Your Bloodwork Shows You What Workout & Nutrition Programs Can't!",
     title: ["Stop Guessing!", "Your Body Deserves Better"],
     body:
-      "Get comprehensive labs with my team to understand what's happening inside your body — hormones, nutrients, inflammation, recovery, and overall wellness.",
-    subtitle: "Our Labs Cover",
+      "Get comprehensive bloodwork with my team to understand what's happening inside your body — hormones, nutrients, inflammation, recovery, and overall wellness.",
+    subtitle: "Our Bloodwork Covers",
     subtitleBody: "The biomarkers that matter most.",
     checks: [
       "Hormone levels",
@@ -46,7 +46,7 @@ const influencerConfig = {
       "What's impacting recovery",
       "Overall wellness",
     ],
-    cta: { label: "Start With Labs Today", sublabel: "25% off Labs + Medical Consult" },
+    cta: { label: "Start With Bloodwork Today", sublabel: "25% off Bloodwork + Medical Consult" },
   },
 
   transformation: {
@@ -59,19 +59,19 @@ const influencerConfig = {
       { tag: "Case 02 \u00b7 Kim", quote: "\u201cHaving a baseline for my health has been a game changer. I know exactly what I needed to fix, and look forward to my next appointment to see how much progress I made.\u201d" },
       { tag: "Case 03 \u00b7 Hannah", quote: "\u201cWoah! I did not realize how much was happening inside my body. Having this level of clarity takes all the guessing out of losing weight.\u201d" },
     ],
-    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Labs + Medical Consult" },
+    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Bloodwork + Medical Consult" },
   },
 
   steps: {
     eyebrow: "SEAMLESS TO GET STARTED",
     title: ["Four Steps.", "Zero Overwhelm."],
     items: [
-      { title: "Purchase your labs", body: "Get 25% off your first lab and a free consultation with my medical staff." },
+      { title: "Purchase your bloodwork", body: "Get 25% off your first lab and a free consultation with my medical staff." },
       { title: "Go to a local facility", body: "We serve all 50 states and help you find a facility if needed." },
       { title: "Book your 60-min consultation", body: "Once your bloodwork is complete, schedule your review with my medical staff." },
       { title: "Walk away with a plan", body: "Review your health, metabolism, hormones, recovery, and next steps." },
     ],
-    cta: { label: "Start Your Glow Up Now!", sublabel: "Labs + Medical Consult" },
+    cta: { label: "Start Your Glow Up Now!", sublabel: "Bloodwork + Medical Consult" },
   },
 
   faq: {
@@ -79,7 +79,7 @@ const influencerConfig = {
     subtitle: "Quick answers before you book.",
     items: [
       {
-        q: "What insights do the labs provide?",
+        q: "What insights does the bloodwork provide?",
         bullets: [
           { title: "Identifies deficiencies and excesses", desc: "Low in iron, vitamin D, B12, magnesium, or other nutrients, so the plan can target real gaps rather than assumptions." },
           { title: "Personalizes macronutrient targets", desc: "Fasting glucose, insulin, and HbA1c show how your body handles carbohydrates, helping determine the right carb intake for your metabolism." },
@@ -88,12 +88,12 @@ const influencerConfig = {
           { title: "Assesses organ health", desc: "Kidney and liver function tests matter because high-protein diets, for example, may need to be modified if kidney function is compromised." },
           { title: "Tracks hormonal factors", desc: "Hormones like cortisol, estrogen, and testosterone influence fat storage, muscle building, and appetite — all relevant to building an effective plan." },
           { title: "Measures inflammation", desc: "Markers like CRP (C-reactive protein) can point toward anti-inflammatory dietary strategies." },
-          { title: "Creates a measurable baseline", desc: "Labs give you a starting point so you can retest later and objectively see whether the nutrition plan is working." },
+          { title: "Creates a measurable baseline", desc: "Bloodwork gives you a starting point so you can retest later and objectively see whether the nutrition plan is working." },
         ],
       },
       { q: "Who is this for?", a: "Women over 30 who feel changes in energy, recovery, metabolism, sleep, focus, hormones, or performance." },
-      { q: "Why review labs with trained medical staff?", a: "Trained staff break down your labs into a personalized, actionable plan — not generic advice from trends." },
-      { q: "Who is Protocol Health Club?", a: "Our team of trained medical staff reviewing labs and providing peptide and hormone optimization treatments." },
+      { q: "Why review bloodwork with trained medical staff?", a: "Trained staff break down your bloodwork into a personalized, actionable plan — not generic advice from trends." },
+      { q: "Who is Protocol Health Club?", a: "Our team of trained medical staff reviewing bloodwork and providing peptide and hormone optimization treatments." },
       { q: "What can optimization help with?", a: "Energy, fat loss, recovery, inflammation, skin, sleep, mood, bone density, and more." },
       { q: "What is Guided Optimization & Concierge Telehealth?", a: "White glove concierge treatment with 24/7 support for peptide and hormone optimization." },
       { q: "What are peptides?", a: "Small \"messenger\" proteins that signal your body to repair tissue, burn fat, or produce hormones." },
@@ -104,9 +104,9 @@ const influencerConfig = {
 
   finalCta: {
     title: "Ready to stop guessing?",
-    body: "Start with labs, review them with medical staff, and get a plan that actually matches your body.",
-    cta: { label: "Get Started Today", sublabel: "25% off Labs + Medical Consult" },
-    footer: "Protocol Health Club • Labs • Consults • Glow Up",
+    body: "Start with bloodwork, review it with medical staff, and get a plan that actually matches your body.",
+    cta: { label: "Get Started Today", sublabel: "25% off Bloodwork + Medical Consult" },
+    footer: "Protocol Health Club • Bloodwork • Consults • Glow Up",
   },
 };
 
