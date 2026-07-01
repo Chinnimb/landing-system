@@ -4,6 +4,15 @@ import CtaButton from "./CtaButton";
 export default function Hero({ data, brand }) {
   return (
     <div className="flex w-full max-w-[342px] flex-col items-center gap-[18px] rounded-[22px] border bg-white px-[18px] py-[26px]" style={{ borderColor: brand.mintBorder }}>
+      <motion.img
+        src="/protocol-logo.png"
+        alt="Protocol Health Club"
+        initial={{ opacity: 0, y: -8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="mb-3 h-16 w-auto max-h-16 object-contain"
+      />
+
       <motion.h1
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
