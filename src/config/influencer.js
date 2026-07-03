@@ -29,7 +29,7 @@ const influencerConfig = {
       "Cravings hit harder than ever",
     ],
     image: "https://www.figma.com/api/mcp/asset/c0f7d708-a49f-477d-9cb7-ba9ef02e8778",
-    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Bloodwork + Medical Consult" },
+    cta: { label: "Get Your Bloodwork Today!", sublabel: "25% off Bloodwork + Medical Consult" },
   },
 
   why: {
