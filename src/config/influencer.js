@@ -17,16 +17,16 @@ const influencerConfig = {
 
   hero: {
     eyebrow: "Telehealth · Blood panel + Medical consultation",
-    headline: ["Let's Fix Your Metabolism", "& Optimize Your Hormones!"],
+    headline: ["Stop Guessing About Your", "Metabolism & Hormones —", "Get the Data First"],
     subheadline:
-      "If your body feels different lately, let's stop guessing and look at what your bloodwork is actually saying.",
+      "If your body feels different lately, let's stop guessing and look at what your labs are actually saying.",
     problems: [
       "Fat loss feels impossible",
-      "Putting on muscle is harder",
-      "Slowing metabolism",
-      "Low energy levels",
-      "Poor sleep",
-      "Deep food cravings",
+      "Building muscle is harder",
+      "Metabolism has slowed",
+      "Energy is inconsistent",
+      "Sleep isn't what it used to be",
+      "Cravings hit harder than ever",
     ],
     image: "https://www.figma.com/api/mcp/asset/c0f7d708-a49f-477d-9cb7-ba9ef02e8778",
     cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Bloodwork + Medical Consult" },
