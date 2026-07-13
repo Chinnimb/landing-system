@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
+import influencerConfig from "../config/influencer";
 
-export default function CtaButton({ label, sublabel, className = "", href = "https://partner.protocolhealthclub.com/leads" }) {
+export default function CtaButton({ label, sublabel, className = "", url = influencerConfig.cta.url }) {
   return (
     <motion.a
-      href={href}
+      href={url}
       target="_blank"
       rel="noopener noreferrer"
       whileHover={{ scale: 1.025 }}

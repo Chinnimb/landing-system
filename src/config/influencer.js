@@ -5,7 +5,11 @@
 // Los componentes son "ciegos" al influencer: solo leen de acá.
 // ──────────────────────────────────────────────────────────────
 
+const ctaUrl = "https://partner.protocolhealthclub.com/leads?am_id=FitGurlMel";
+
 const influencerConfig = {
+  cta: { url: ctaUrl },
+
   brand: {
     name: "Protocol Health Club",
     accentGradient:
@@ -29,7 +33,7 @@ const influencerConfig = {
       "Cravings hit harder than ever",
     ],
     image: "https://www.figma.com/api/mcp/asset/c0f7d708-a49f-477d-9cb7-ba9ef02e8778",
-    cta: { label: "Get Your Bloodwork Today!", sublabel: "25% off Bloodwork + Medical Consult" },
+    cta: { label: "Get Your Bloodwork Today!", sublabel: "25% off Bloodwork + Medical Consult", url: ctaUrl },
   },
 
   why: {
@@ -46,7 +50,7 @@ const influencerConfig = {
       "What's impacting recovery",
       "Overall wellness",
     ],
-    cta: { label: "Start With Bloodwork Today", sublabel: "25% off Bloodwork + Medical Consult" },
+    cta: { label: "Start With Bloodwork Today", sublabel: "25% off Bloodwork + Medical Consult", url: ctaUrl },
   },
 
   transformation: {
@@ -59,7 +63,7 @@ const influencerConfig = {
       { tag: "Case 02 \u00b7 Kim", quote: "\u201cHaving a baseline for my health has been a game changer. I know exactly what I needed to fix, and look forward to my next appointment to see how much progress I made.\u201d" },
       { tag: "Case 03 \u00b7 Hannah", quote: "\u201cWoah! I did not realize how much was happening inside my body. Having this level of clarity takes all the guessing out of losing weight.\u201d" },
     ],
-    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Bloodwork + Medical Consult" },
+    cta: { label: "Start Your Glow Up Now!", sublabel: "25% off Bloodwork + Medical Consult", url: ctaUrl },
   },
 
   steps: {
@@ -71,7 +75,7 @@ const influencerConfig = {
       { title: "Book your 60-min consultation", body: "Once your bloodwork is complete, schedule your review with my medical staff." },
       { title: "Walk away with a plan", body: "Review your health, metabolism, hormones, recovery, and next steps." },
     ],
-    cta: { label: "Start Your Glow Up Now!", sublabel: "Bloodwork + Medical Consult" },
+    cta: { label: "Start Your Glow Up Now!", sublabel: "Bloodwork + Medical Consult", url: ctaUrl },
   },
 
   faq: {
@@ -99,13 +103,13 @@ const influencerConfig = {
       { q: "What are peptides?", a: "Small \"messenger\" proteins that signal your body to repair tissue, burn fat, or produce hormones." },
       { q: "What is HRT? (Hormone Replacement Therapy)", a: "Replacing declining hormone levels (estrogen/progesterone) as you approach menopause." },
     ],
-    cta: { label: "Have questions? Text my team here!", sublabel: "I'll help you choose where to start" },
+    cta: { label: "Have questions? Text my team here!", sublabel: "I'll help you choose where to start", url: ctaUrl },
   },
 
   finalCta: {
     title: "Ready to stop guessing?",
     body: "Start with bloodwork, review it with medical staff, and get a plan that actually matches your body.",
-    cta: { label: "Get Started Today", sublabel: "25% off Bloodwork + Medical Consult" },
+    cta: { label: "Get Started Today", sublabel: "25% off Bloodwork + Medical Consult", url: ctaUrl },
     footer: "Protocol Health Club • Bloodwork • Consults • Glow Up",
   },
 };
