@@ -54,7 +54,7 @@ const influencerConfig = {
   transformation: {
     eyebrow: "THIS IS THE FIRST STEP IN YOUR TRANSFORMATION",
     title: "My Healthiest Self After 40 — Because I Finally Knew What My Body Needed",
-    image: "https://www.figma.com/api/mcp/asset/82ac316a-18ec-4274-84fc-db810c50850b",
+    image: "/mel-before-after.png",
     eyebrow2: "LEARN WHAT YOUR BODY NEEDS AS WELL",
     cases: [
       { tag: "Case 01 \u00b7 Casey", quote: "\u201cTrying to get in shape has been a constant struggle. I was doing a lot wrong with my health, and needed this feedback to finally course correct.\u201d" },
