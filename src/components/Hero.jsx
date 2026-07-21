@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
 import CtaButton from "./CtaButton";
+import EyebrowPill from "./EyebrowPill";
 
 export default function Hero({ data, brand }) {
   return (
     <div className="flex w-full max-w-[342px] flex-col items-center gap-[18px] rounded-[28px] bg-white px-[18px] py-[26px] shadow-[0_8px_28px_rgba(139,92,246,0.12)]">
+      <EyebrowPill>{data.eyebrow}</EyebrowPill>
       <motion.h1
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}

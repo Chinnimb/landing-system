@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import CtaButton from "./CtaButton";
 import FadeInSection from "./FadeInSection";
+import EyebrowPill from "./EyebrowPill";
 
 export default function WhySection({ data, brand }) {
   return (
     <FadeInSection className="flex w-full max-w-[342px] flex-col items-center gap-[20px] rounded-[28px] bg-white px-[18px] py-[30px] shadow-[0_8px_28px_rgba(139,92,246,0.12)]">
-      <p className="max-w-[306px] text-center font-bold text-[12px] leading-[14px] text-[#7C3AED]">{data.eyebrow}</p>
+      <EyebrowPill>{data.eyebrow}</EyebrowPill>
       <h2 className="max-w-[306px] text-center font-bold text-[26px] leading-[31px] text-[#121213]">
         {data.title.map((line, i) => (
           <span key={i} className="block">
