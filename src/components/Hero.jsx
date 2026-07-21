@@ -3,7 +3,7 @@ import CtaButton from "./CtaButton";
 
 export default function Hero({ data, brand }) {
   return (
-    <div className="flex w-full max-w-[342px] flex-col items-center gap-[18px] rounded-[22px] border bg-white px-[18px] py-[26px]" style={{ borderColor: brand.mintBorder }}>
+    <div className="flex w-full max-w-[342px] flex-col items-center gap-[18px] rounded-[28px] bg-white px-[18px] py-[26px] shadow-[0_8px_28px_rgba(139,92,246,0.12)]">
       <motion.h1
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}

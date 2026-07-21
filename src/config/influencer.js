@@ -12,11 +12,9 @@ const influencerConfig = {
 
   brand: {
     name: "Protocol Health Club",
-    accentGradient:
-      "linear-gradient(100deg, rgba(210,73,5,0.93) 0%, rgb(255,140,0) 49%, rgba(255,0,200,0.99) 109%)",
-    secondaryColor: "#ff9500",
+    accentGradient: "linear-gradient(90deg, #C4B5FD 0%, #8B5CF6 55%, #7C3AED 100%)",
+    secondaryColor: "#8B5CF6",
     darkColor: "#1a1f1f",
-    mintBorder: "rgba(173,245,219,0.9)",
   },
 
   hero: {

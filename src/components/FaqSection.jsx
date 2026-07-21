@@ -18,8 +18,7 @@ export default function FaqSection({ data, brand }) {
         return (
           <div
             key={i}
-            className="w-[306px] cursor-pointer rounded-[16px] border bg-white p-[14px]"
-            style={{ borderColor: brand.mintBorder }}
+            className="w-[306px] cursor-pointer rounded-[20px] bg-white p-[14px] shadow-[0_4px_18px_rgba(139,92,246,0.10)]"
             onClick={() => setOpenIndex(isOpen ? -1 : i)}
           >
             <div className="flex w-full items-center justify-between">
@@ -28,7 +27,7 @@ export default function FaqSection({ data, brand }) {
                 animate={{ rotate: isOpen ? 90 : 0 }}
                 transition={{ duration: 0.25 }}
                 className="flex h-[24px] w-[24px] shrink-0 items-center justify-center text-[20px]"
-                style={{ color: isOpen ? "#753de5" : "#121213" }}
+                style={{ color: isOpen ? "#7C3AED" : "#121213" }}
               >
                 ›
               </motion.span>

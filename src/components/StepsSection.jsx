@@ -1,14 +1,12 @@
 import { motion } from "framer-motion";
 import CtaButton from "./CtaButton";
 import FadeInSection from "./FadeInSection";
+import EyebrowPill from "./EyebrowPill";
 
 export default function StepsSection({ data, brand }) {
   return (
-    <FadeInSection
-      className="flex w-full max-w-[342px] flex-col items-center gap-[22px] rounded-[22px] border bg-white px-[18px] py-[30px]"
-      style={{ borderColor: brand.mintBorder }}
-    >
-      <p className="max-w-[306px] text-center font-bold text-[12px] leading-[14px] text-[#146b66]">{data.eyebrow}</p>
+    <FadeInSection className="flex w-full max-w-[342px] flex-col items-center gap-[22px] rounded-[28px] bg-white px-[18px] py-[30px] shadow-[0_8px_28px_rgba(139,92,246,0.12)]">
+      <EyebrowPill>{data.eyebrow}</EyebrowPill>
       <h2 className="max-w-[306px] text-center font-bold text-[26px] leading-[31px] text-[#121213]">
         {data.title.map((line, i) => (
           <span key={i} className="block">
@@ -27,10 +25,9 @@ export default function StepsSection({ data, brand }) {
           className="flex w-full max-w-[306px] items-start gap-[12px]"
         >
           <div
-            className="flex h-[36px] w-[36px] shrink-0 items-center justify-center rounded-[12px] text-[13px] font-bold text-[#753de5]"
+            className="flex h-[36px] w-[36px] shrink-0 items-center justify-center rounded-[12px] text-[13px] font-bold text-[#7C3AED]"
             style={{
-              background:
-                "linear-gradient(148deg, rgba(173,245,219,0.9) 7%, rgba(209,189,245,0.85) 49%, rgba(250,250,224,0.8) 103%)",
+              background: "linear-gradient(148deg, #F3E8FF 7%, #E9D5FF 103%)",
             }}
           >
             {String(i + 1).padStart(2, "0")}

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CtaButton from "./CtaButton";
 import FadeInSection from "./FadeInSection";
+import EyebrowPill from "./EyebrowPill";
 
 export default function TransformationSection({ data, brand }) {
   const [index, setIndex] = useState(0);
@@ -10,11 +11,8 @@ export default function TransformationSection({ data, brand }) {
   const go = (dir) => setIndex((prev) => (prev + dir + total) % total);
 
   return (
-    <FadeInSection
-      className="flex w-full max-w-[342px] flex-col items-center gap-[18px] rounded-[22px] border bg-white px-[18px] py-[30px]"
-      style={{ borderColor: brand.mintBorder }}
-    >
-      <p className="max-w-[306px] text-center font-bold text-[12px] leading-[14px] text-[#146b66]">{data.eyebrow}</p>
+    <FadeInSection className="flex w-full max-w-[342px] flex-col items-center gap-[18px] rounded-[28px] bg-white px-[18px] py-[30px] shadow-[0_8px_28px_rgba(139,92,246,0.12)]">
+      <EyebrowPill>{data.eyebrow}</EyebrowPill>
       <h2 className="max-w-[306px] text-center font-bold text-[26px] leading-[31px] text-[#121213]">{data.title}</h2>
 
       <motion.img
@@ -27,7 +25,7 @@ export default function TransformationSection({ data, brand }) {
         className="h-[330px] w-[306px] rounded-[20px] object-cover"
       />
 
-      <p className="max-w-[306px] text-center font-bold text-[12px] leading-[14px] text-[#146b66]">{data.eyebrow2}</p>
+      <EyebrowPill>{data.eyebrow2}</EyebrowPill>
 
       <div className="relative w-[306px] overflow-hidden">
         <AnimatePresence mode="wait" initial={false}>
@@ -37,20 +35,19 @@ export default function TransformationSection({ data, brand }) {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -24 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="flex flex-col gap-[10px] rounded-[18px] border border-[#e0e0db] p-[14px]"
+            className="flex flex-col gap-[10px] rounded-[18px] p-[14px]"
             style={{
-              background:
-                "linear-gradient(149deg, rgba(173,245,219,0.9) 7%, rgba(250,250,224,0.8) 103%)",
+              background: "linear-gradient(149deg, #F3E8FF 7%, #FDE7EE 103%)",
             }}
           >
-            <p className="font-bold text-[#146b66]">{data.cases[index].tag}</p>
+            <p className="font-bold text-[#7C3AED]">{data.cases[index].tag}</p>
             <p className="text-[13px] leading-[15px] text-[#121213]">{data.cases[index].quote}</p>
           </motion.div>
         </AnimatePresence>
       </div>
 
       <div className="flex w-[140px] items-center justify-between">
-        <button onClick={() => go(-1)} aria-label="Anterior" className="cursor-pointer text-[20px] text-[#146b66] opacity-70 transition hover:opacity-100">
+        <button onClick={() => go(-1)} aria-label="Anterior" className="cursor-pointer text-[20px] text-[#7C3AED] opacity-70 transition hover:opacity-100">
           ‹
         </button>
         <div className="flex items-center gap-[6px]">
@@ -58,13 +55,13 @@ export default function TransformationSection({ data, brand }) {
             <motion.span
               key={i}
               onClick={() => setIndex(i)}
-              animate={{ width: i === index ? 24 : 8, backgroundColor: i === index ? brand.secondaryColor : "#d8e0dc" }}
+              animate={{ width: i === index ? 24 : 8, backgroundColor: i === index ? brand.secondaryColor : "#e8d9f5" }}
               transition={{ duration: 0.25 }}
               className="h-[8px] cursor-pointer rounded-full"
             />
           ))}
         </div>
-        <button onClick={() => go(1)} aria-label="Siguiente" className="cursor-pointer text-[20px] text-[#146b66] opacity-70 transition hover:opacity-100">
+        <button onClick={() => go(1)} aria-label="Siguiente" className="cursor-pointer text-[20px] text-[#7C3AED] opacity-70 transition hover:opacity-100">
           ›
         </button>
       </div>
