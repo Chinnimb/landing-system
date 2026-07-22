@@ -45,7 +45,7 @@ export default function Hero({ data, brand }) {
             }}
             className="flex items-start gap-[10px] text-[15px] leading-[18px] text-[#121213]"
           >
-            <span className="w-[18px] text-center font-bold text-[16px] text-[#eb1f2e]">✕</span>
+            <span className="w-[18px] text-center font-bold text-[16px] text-[#8B5CF6]">✕</span>
             <span className="font-medium">{problem}</span>
           </motion.li>
         ))}

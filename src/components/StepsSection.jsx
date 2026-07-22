@@ -5,7 +5,15 @@ import EyebrowPill from "./EyebrowPill";
 
 export default function StepsSection({ data, brand }) {
   return (
-    <FadeInSection className="flex w-full max-w-[342px] flex-col items-center gap-[22px] rounded-[28px] bg-white px-[18px] py-[30px] shadow-[0_8px_28px_rgba(139,92,246,0.12)]">
+    <FadeInSection
+      className="flex w-full max-w-[342px] flex-col items-center gap-[22px] rounded-[28px] px-[18px] py-[30px] shadow-[0_8px_28px_rgba(139,92,246,0.12)]"
+      style={{
+        border: "1px solid transparent",
+        backgroundImage: "linear-gradient(#fff, #fff), linear-gradient(180deg, #D8C7F2 0%, #F7D9D2 100%)",
+        backgroundOrigin: "border-box",
+        backgroundClip: "padding-box, border-box",
+      }}
+    >
       <EyebrowPill>{data.eyebrow}</EyebrowPill>
       <h2 className="max-w-[306px] text-center font-bold text-[26px] leading-[31px] text-[#121213]">
         {data.title.map((line, i) => (

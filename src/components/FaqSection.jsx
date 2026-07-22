@@ -18,7 +18,13 @@ export default function FaqSection({ data, brand }) {
         return (
           <div
             key={i}
-            className="w-[306px] cursor-pointer rounded-[20px] bg-white p-[14px] shadow-[0_4px_18px_rgba(139,92,246,0.10)]"
+            className="w-[306px] cursor-pointer rounded-[20px] p-[14px] shadow-[0_4px_18px_rgba(139,92,246,0.10)]"
+            style={{
+              border: "1px solid transparent",
+              backgroundImage: "linear-gradient(#fff, #fff), linear-gradient(180deg, #D8C7F2 0%, #F7D9D2 100%)",
+              backgroundOrigin: "border-box",
+              backgroundClip: "padding-box, border-box",
+            }}
             onClick={() => setOpenIndex(isOpen ? -1 : i)}
           >
             <div className="flex w-full items-center justify-between">
