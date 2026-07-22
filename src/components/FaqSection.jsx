@@ -1,24 +1,24 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CtaButton from "./CtaButton";
-import FadeInSection from "./FadeInSection";
+import SectionCard from "./SectionCard";
 
 export default function FaqSection({ data, brand }) {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <FadeInSection className="flex w-full max-w-[342px] flex-col items-center gap-[16px]">
-      <h2 className="max-w-[342px] text-center font-bold text-[28px] leading-[33px] text-[#121213]">
+    <SectionCard className="flex w-full max-w-[342px] flex-col items-center gap-[16px] px-[18px] py-[30px]">
+      <h2 className="max-w-[306px] text-center font-bold text-[28px] leading-[33px] text-[#121213]">
         {data.title.join(" ")}
       </h2>
-      <p className="max-w-[342px] text-center font-medium text-[15px] leading-[18px] text-[#636369]">{data.subtitle}</p>
+      <p className="max-w-[306px] text-center font-medium text-[15px] leading-[18px] text-[#636369]">{data.subtitle}</p>
 
       {data.items.map((item, i) => {
         const isOpen = openIndex === i;
         return (
           <div
             key={i}
-            className="w-[306px] cursor-pointer rounded-[20px] p-[14px] shadow-[0_4px_18px_rgba(139,92,246,0.10)]"
+            className="w-[306px] cursor-pointer rounded-[20px] p-[14px]"
             style={{
               border: "1px solid transparent",
               backgroundImage: "linear-gradient(#fff, #fff), linear-gradient(180deg, #D8C7F2 0%, #F7D9D2 100%)",
@@ -68,6 +68,6 @@ export default function FaqSection({ data, brand }) {
       })}
 
       <CtaButton {...data.cta} gradient brand={brand} />
-    </FadeInSection>
+    </SectionCard>
   );
 }

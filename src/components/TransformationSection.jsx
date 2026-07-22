@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CtaButton from "./CtaButton";
-import FadeInSection from "./FadeInSection";
 import EyebrowPill from "./EyebrowPill";
+import SectionCard from "./SectionCard";
 
 export default function TransformationSection({ data, brand }) {
   const [index, setIndex] = useState(0);
@@ -11,7 +11,7 @@ export default function TransformationSection({ data, brand }) {
   const go = (dir) => setIndex((prev) => (prev + dir + total) % total);
 
   return (
-    <FadeInSection className="flex w-full max-w-[342px] flex-col items-center gap-[18px] rounded-[28px] bg-white px-[18px] py-[30px] shadow-[0_8px_28px_rgba(139,92,246,0.12)]">
+    <SectionCard className="flex w-full max-w-[342px] flex-col items-center gap-[18px] px-[18px] py-[30px]">
       <EyebrowPill>{data.eyebrow}</EyebrowPill>
       <h2 className="max-w-[306px] text-center font-bold text-[26px] leading-[31px] text-[#121213]">{data.title}</h2>
 
@@ -67,6 +67,6 @@ export default function TransformationSection({ data, brand }) {
       </div>
 
       <CtaButton {...data.cta} gradient brand={brand} />
-    </FadeInSection>
+    </SectionCard>
   );
 }
