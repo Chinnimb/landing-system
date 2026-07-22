@@ -17,7 +17,7 @@ export default function MobileLandingPage({ config = influencerConfig }) {
   const { brand } = config;
 
   return (
-    <div className="flex min-h-screen w-full justify-center bg-[#fce7ef] py-[34px]">
+    <div className="flex min-h-screen w-full justify-center bg-[#FBFCFE] py-[34px]">
       <div className="flex w-[390px] flex-col items-center gap-[26px] px-[16px]">
         <Hero data={config.hero} brand={brand} />
         <WhySection data={config.why} brand={brand} />
