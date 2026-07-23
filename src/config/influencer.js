@@ -103,10 +103,9 @@ const influencerConfig = {
   },
 
   finalCta: {
-    title: "Ready to stop guessing?",
-    body: "Start with bloodwork, review it with medical staff, and get a plan that actually matches your body.",
-    cta: { label: ctaLabel, url: ctaUrl },
-    footer: "Protocol Health Club • Bloodwork • Consults • Glow Up",
+    title: ["Ready to Stop", "Guessing?"],
+    body: "Start with bloodwork, review them with medical experts, and walk away with a plan built around what your body actually needs - not a generic program.",
+    cta: { label: ctaLabel, sublabel: "25% off", url: ctaUrl },
   },
 };
 
