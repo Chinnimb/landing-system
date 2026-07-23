@@ -29,29 +29,6 @@ export default function Hero({ data, brand }) {
         {data.subheadline}
       </motion.p>
 
-      <motion.ul
-        initial="hidden"
-        animate="visible"
-        variants={{
-          visible: { transition: { staggerChildren: 0.07, delayChildren: 0.25 } },
-        }}
-        className="flex w-full max-w-[306px] flex-col gap-[9px]"
-      >
-        {data.problems.map((problem, i) => (
-          <motion.li
-            key={i}
-            variants={{
-              hidden: { opacity: 0, x: -12 },
-              visible: { opacity: 1, x: 0 },
-            }}
-            className="flex items-start gap-[10px] text-[15px] leading-[18px] text-[#121213]"
-          >
-            <span className="w-[18px] text-center font-bold text-[16px] text-[#8B5CF6]">✕</span>
-            <span className="font-medium">{problem}</span>
-          </motion.li>
-        ))}
-      </motion.ul>
-
       <motion.div
         initial={{ opacity: 0, scale: 0.94 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -66,6 +43,31 @@ export default function Hero({ data, brand }) {
           className="h-full w-full object-cover"
         />
       </motion.div>
+
+      <motion.ul
+        initial="hidden"
+        animate="visible"
+        variants={{
+          visible: { transition: { staggerChildren: 0.07, delayChildren: 0.25 } },
+        }}
+        className="flex w-full max-w-[306px] flex-col gap-[9px]"
+      >
+        {data.bullets.map((bullet, i) => (
+          <motion.li
+            key={i}
+            variants={{
+              hidden: { opacity: 0, x: -12 },
+              visible: { opacity: 1, x: 0 },
+            }}
+            className="flex items-center gap-[10px] text-[15px] leading-[18px] text-[#121213]"
+          >
+            <span className="flex h-[22px] w-[22px] shrink-0 items-center justify-center rounded-full bg-[rgba(139,92,246,0.12)] text-[12px] font-bold text-[#8B5CF6]">
+              ✓
+            </span>
+            <span className="font-medium">{bullet}</span>
+          </motion.li>
+        ))}
+      </motion.ul>
 
       <CtaButton {...data.cta} gradient brand={brand} />
     </SectionCard>

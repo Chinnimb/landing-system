@@ -18,20 +18,13 @@ const influencerConfig = {
   },
 
   hero: {
-    eyebrow: "Telehealth · Blood panel + Medical consultation",
-    headline: ["Stop Guessing About Your", "Metabolism & Hormones —", "Get the Data First"],
+    eyebrow: "PERSONALIZED WOMEN'S WELLNESS",
+    headline: ["Personalized Women's Wellness."],
     subheadline:
-      "If your body feels different lately, let's stop guessing and look at what your labs are actually saying.",
-    problems: [
-      "Fat loss feels impossible",
-      "Building muscle is harder",
-      "Metabolism has slowed",
-      "Energy is inconsistent",
-      "Sleep isn't what it used to be",
-      "Cravings hit harder than ever",
-    ],
+      "Bloodwork and wellness consult built for women to optimize body composition, energy, sleep, and cognition.",
+    bullets: ["200+ women transformed", "Physician-supervised protocols", "Real protocols, real results"],
     image: "https://www.figma.com/api/mcp/asset/c0f7d708-a49f-477d-9cb7-ba9ef02e8778",
-    cta: { label: "Get Your Bloodwork Today!", sublabel: "25% off Bloodwork + Medical Consult", url: ctaUrl },
+    cta: { label: "BOOK BLOODWORK + WELLNESS CONSULT", sublabel: "25% off Bloodwork + Medical Consult", url: ctaUrl },
   },
 
   why: {
