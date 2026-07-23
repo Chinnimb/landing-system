@@ -13,9 +13,9 @@ export default function CtaButton({ label, sublabel, className = "", url = influ
       className={`flex w-full max-w-[324px] flex-col items-center justify-center gap-[2px] rounded-[4px] border border-[#FFCFEC] px-[18px] py-[13px] text-center text-[#1a1a1a] shadow-[0_8px_20px_rgba(241,88,190,0.25)] cursor-pointer no-underline transition-opacity duration-150 hover:opacity-90 ${className}`}
       style={{ background: brand.accentGradient }}
     >
-      <span className="font-bold uppercase tracking-[0.08em] text-[14px] leading-[17px]">{label}</span>
+      <span className="whitespace-nowrap font-bold uppercase tracking-[0.04em] text-[12px] leading-[15px]">{label}</span>
       {sublabel && (
-        <span className="font-bold text-[13px] leading-[16px] text-[#7C3AED]">{sublabel}</span>
+        <span className="whitespace-nowrap font-bold text-[12px] leading-[15px] text-[#7C3AED]">{sublabel}</span>
       )}
     </motion.a>
   );
