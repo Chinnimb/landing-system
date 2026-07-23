@@ -66,14 +66,14 @@ const influencerConfig = {
 
   steps: {
     eyebrow: "SEAMLESS TO GET STARTED",
-    title: ["Four Steps.", "Zero Overwhelm."],
+    title: ["Four Easy Steps.", "Zero Overwhelm."],
     items: [
-      { title: "Purchase your bloodwork", body: "Get 25% off your first lab and a free consultation with my medical staff." },
-      { title: "Go to a local facility", body: "We serve all 50 states and help you find a facility if needed." },
-      { title: "Book your 60-min consultation", body: "Once your bloodwork is complete, schedule your review with my medical staff." },
-      { title: "Walk away with a plan", body: "Review your health, metabolism, hormones, recovery, and next steps." },
+      { title: "Purchase your bloodwork", body: "Get 25% off your first lab plus a consult." },
+      { title: "Visit a local facility", body: "We coordinate the check and lab work." },
+      { title: "Book your consult", body: "Review your labs with medical staff." },
+      { title: "Walk away with a plan", body: "A clear plan for coaching, retesting, and next steps." },
     ],
-    cta: { label: ctaLabel, url: ctaUrl },
+    cta: { label: "START WITH BLOODWORK TODAY", url: ctaUrl },
   },
 
   faq: {
