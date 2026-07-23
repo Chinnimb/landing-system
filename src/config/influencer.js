@@ -76,6 +76,18 @@ const influencerConfig = {
     cta: { label: "START WITH BLOODWORK TODAY", url: ctaUrl },
   },
 
+  options: {
+    eyebrow: "CAN I CONTINUE WITH WELLNESS COACHING?",
+    title: "What Are My Options After My Wellness Consult?",
+    bullets: ["24/7 Guided Wellness Coaching", "Quarterly bloodwork testing", "Peptides & hormone therapies"],
+    cards: [
+      { title: "Wellness", subtitle: "Consulting", emoji: "🩺" },
+      { title: "Peptides", subtitle: "GLP-1s", image: "/peptides-bottle.png" },
+      { title: "Test", subtitle: "Biomarkers", emoji: "🧪" },
+      { title: "Hormone", subtitle: "Therapies", emoji: "💊" },
+    ],
+  },
+
   faq: {
     title: ["Let Me", "Answer All Your Questions!"],
     subtitle: "Quick answers before you book.",

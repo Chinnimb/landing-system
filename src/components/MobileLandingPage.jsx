@@ -4,6 +4,7 @@ import WhySection from "./WhySection";
 import BloodworkCoversSection from "./BloodworkCoversSection";
 import TransformationSection from "./TransformationSection";
 import StepsSection from "./StepsSection";
+import OptionsSection from "./OptionsSection";
 import FaqSection from "./FaqSection";
 import FinalCta from "./FinalCta";
 
@@ -25,6 +26,7 @@ export default function MobileLandingPage({ config = influencerConfig }) {
         <BloodworkCoversSection data={config.bloodworkCovers} brand={brand} />
         <TransformationSection data={config.transformation} brand={brand} />
         <StepsSection data={config.steps} brand={brand} />
+        <OptionsSection data={config.options} />
         <FaqSection data={config.faq} brand={brand} />
         <FinalCta data={config.finalCta} brand={brand} />
       </div>
