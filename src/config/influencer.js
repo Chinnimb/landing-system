@@ -28,18 +28,16 @@ const influencerConfig = {
   },
 
   why: {
-    eyebrow: "Your Bloodwork Shows You What Workout & Nutrition Programs Can't!",
-    title: ["Stop Guessing!", "Your Body Deserves Better"],
+    title: "Normal Is Not Optimal",
     body:
-      "Get comprehensive bloodwork with my team to understand what's happening inside your body — hormones, nutrients, inflammation, recovery, and overall wellness.",
-    subtitle: "Our Bloodwork Covers",
-    subtitleBody: "The biomarkers that matter most.",
-    checks: [
-      "Hormone levels",
-      "Nutrient deficiencies",
-      "Inflammation",
-      "What's impacting recovery",
-      "Overall wellness",
+      "If your body and mind feels \"off\". It's time let's stop guessing and understand what's going on inside your body 🔬",
+    bullets: [
+      "Fat loss feels impossible",
+      "Building muscle is harder",
+      "Metabolism has slowed",
+      "Energy is inconsistent",
+      "Sleep isn't what it used to be",
+      "Cravings hit harder than ever",
     ],
     cta: { label: "Start With Bloodwork Today", sublabel: "25% off Bloodwork + Medical Consult", url: ctaUrl },
   },
