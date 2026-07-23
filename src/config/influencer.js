@@ -113,7 +113,7 @@ const influencerConfig = {
       { q: "What are peptides?", a: "Small \"messenger\" proteins that signal your body to repair tissue, burn fat, or produce hormones." },
       { q: "What is HRT? (Hormone Replacement Therapy)", a: "Replacing declining hormone levels (estrogen/progesterone) as you approach menopause." },
     ],
-    cta: { label: ctaLabel, url: ctaUrl },
+    cta: { label: "Have questions? Text my team here!", sublabel: "I'll help you choose where to start", url: ctaUrl },
   },
 
   finalCta: {
