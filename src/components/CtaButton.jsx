@@ -15,7 +15,7 @@ export default function CtaButton({ label, sublabel, className = "", url = influ
     >
       <span className="font-bold uppercase tracking-[0.08em] text-[14px] leading-[17px]">{label}</span>
       {sublabel && (
-        <span className="font-semibold uppercase tracking-[0.08em] text-[11px] leading-[13px] opacity-70">{sublabel}</span>
+        <span className="font-bold text-[13px] leading-[16px] text-[#7C3AED]">{sublabel}</span>
       )}
     </motion.a>
   );
