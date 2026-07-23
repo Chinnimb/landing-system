@@ -26,7 +26,7 @@ export default function OptionsSection({ data }) {
         ))}
       </ul>
 
-      <div className="grid w-full max-w-[306px] grid-cols-2 gap-[12px] rounded-[22px] bg-[#F3F1FB] p-[12px]">
+      <div className="grid w-full max-w-[306px] grid-cols-2 gap-[14px] rounded-[24px] bg-[#EEF6FB] p-[16px]">
         {data.cards.map((card, i) => (
           <motion.div
             key={i}
@@ -34,16 +34,16 @@ export default function OptionsSection({ data }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: i * 0.07 }}
-            className="flex flex-col items-center gap-[10px] rounded-[16px] border border-[#F5C7E4] bg-white px-[12px] py-[16px]"
+            className="flex flex-col items-center gap-[22px] rounded-[20px] border border-[#F5C7E4] bg-white px-[16px] py-[20px]"
           >
             <div className="flex w-full flex-col items-start gap-[1px]">
               <p className="font-bold text-[15px] leading-[18px] text-[#121213]">{card.title}</p>
               <p className="font-bold text-[13px] leading-[16px] text-[#F158BE]">{card.subtitle}</p>
             </div>
             {card.image ? (
-              <img src={card.image} alt={`${card.title} ${card.subtitle}`} className="h-[52px] w-auto object-contain" />
+              <img src={card.image} alt={`${card.title} ${card.subtitle}`} className="h-[64px] w-auto object-contain" />
             ) : (
-              <span className="text-[36px] leading-none">{card.emoji}</span>
+              <span className="text-[44px] leading-none">{card.emoji}</span>
             )}
           </motion.div>
         ))}
