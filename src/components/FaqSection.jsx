@@ -29,14 +29,12 @@ export default function FaqSection({ data, brand }) {
           >
             <div className="flex w-full items-center justify-between">
               <p className="flex-1 font-bold text-[15px] leading-[18px] text-[#121213]">{item.q}</p>
-              <motion.span
-                animate={{ rotate: isOpen ? 90 : 0 }}
-                transition={{ duration: 0.25 }}
-                className="flex h-[24px] w-[24px] shrink-0 items-center justify-center text-[20px]"
+              <span
+                className="flex h-[24px] w-[24px] shrink-0 items-center justify-center text-[18px] font-bold"
                 style={{ color: isOpen ? "#7C3AED" : "#121213" }}
               >
-                ›
-              </motion.span>
+                {isOpen ? "−" : "+"}
+              </span>
             </div>
             <AnimatePresence initial={false}>
               {isOpen && (
