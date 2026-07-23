@@ -42,6 +42,14 @@ const influencerConfig = {
     cta: { label: "Start With Bloodwork Today", sublabel: "25% off Bloodwork + Medical Consult", url: ctaUrl },
   },
 
+  bloodworkCovers: {
+    eyebrow: "LABS FIRST",
+    title: "Our Bloodwork Covers",
+    subtitle: "The biomarkers that matter most.",
+    items: ["Hormone levels", "Nutrient deficiencies", "Inflammation", "What's impacting recovery", "Overall wellness"],
+    cta: { label: "BOOK BLOODWORK + WELLNESS CONSULT", sublabel: "25% off Bloodwork + Medical Consult", url: ctaUrl },
+  },
+
   transformation: {
     eyebrow: "THIS IS THE FIRST STEP IN YOUR TRANSFORMATION",
     title: "My Healthiest Self After 40 — Because I Finally Knew What My Body Needed",
