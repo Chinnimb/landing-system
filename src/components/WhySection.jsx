@@ -18,9 +18,7 @@ export default function WhySection({ data, brand }) {
             transition={{ duration: 0.4, delay: i * 0.06 }}
             className="flex items-center gap-[10px] text-[14px] leading-[17px] text-[#121213]"
           >
-            <span className="flex h-[22px] w-[22px] shrink-0 items-center justify-center rounded-full bg-[rgba(139,92,246,0.12)] text-[12px] font-bold text-[#8B5CF6]">
-              ✕
-            </span>
+            <span className="w-[18px] shrink-0 text-center text-[16px] font-bold text-[#8B5CF6]">✕</span>
             <span className="font-medium">{bullet}</span>
           </motion.li>
         ))}
