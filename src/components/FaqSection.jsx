@@ -56,7 +56,7 @@ export default function FaqSection({ data, brand }) {
                       ))}
                     </ul>
                   ) : (
-                    <p className="text-[13px] leading-[15px] text-[#636369]">{item.a}</p>
+                    <p className="text-[13px] leading-[20px] text-[#636369]">{item.a}</p>
                   )}
                 </motion.div>
               )}
