@@ -89,7 +89,7 @@ const influencerConfig = {
   },
 
   faq: {
-    title: ["Let Me", "Answer All Your Questions!"],
+    title: ["MORE FAQ'S"],
     subtitle: "Quick answers before you book.",
     items: [
       {
