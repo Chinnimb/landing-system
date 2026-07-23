@@ -30,8 +30,8 @@ export default function FaqSection({ data, brand }) {
             <div className="flex w-full items-center justify-between">
               <p className="flex-1 font-bold text-[15px] leading-[18px] text-[#121213]">{item.q}</p>
               <span
-                className="flex h-[24px] w-[24px] shrink-0 items-center justify-center text-[18px] font-bold"
-                style={{ color: isOpen ? "#7C3AED" : "#121213" }}
+                className="flex h-[24px] w-[24px] shrink-0 items-center justify-center text-[19px] font-normal"
+                style={{ color: isOpen ? "#7C3AED" : "#A0A0A6" }}
               >
                 {isOpen ? "−" : "+"}
               </span>
